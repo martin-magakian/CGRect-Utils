@@ -21,13 +21,6 @@
     [super dealloc];
 }
 
--(void) updatePos{
-    xLabel.text = [NSString stringWithFormat:@"%f", duck.frame.origin.x];
-    yLabel.text = [NSString stringWithFormat:@"%f", duck.frame.origin.y];
-    wLabel.text = [NSString stringWithFormat:@"%f", duck.frame.size.width];
-    hLabel.text = [NSString stringWithFormat:@"%f", duck.frame.size.height];
-}
-
 - (IBAction)xPlusTen:(id)sender {
     
     // the traditional way
@@ -76,7 +69,10 @@
 }
 
 - (IBAction)updatePosition:(id)sender {
-    [self updatePos];
+    xLabel.text = [NSString stringWithFormat:@"%.0f", duck.frame.origin.x];
+    yLabel.text = [NSString stringWithFormat:@"%.0f", duck.frame.origin.y];
+    wLabel.text = [NSString stringWithFormat:@"%.0f", duck.frame.size.width];
+    hLabel.text = [NSString stringWithFormat:@"%.0f", duck.frame.size.height];
 }
 
 
