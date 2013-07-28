@@ -4,8 +4,10 @@ CGRect Utils
 Install
 ---
 1) Copy the .m and .h from the LIB directory of this project into your own.
+
 2) Look for your file *-Prefix.pch and add the import
 	#import "UIView+CGRectUtils.h"
+	
 Or manually #import "UIView+CGRectUtils.h" into every class who need CGRect Utils.
 
 
@@ -33,6 +35,7 @@ List utils **getter and setter** for UIView:
 
 
 Or you can use the macro:
+
 	CGRectAddXToView(duck, 10);
 
 
