@@ -13,7 +13,10 @@ Help manipulating UIView's frame:
 ---
 To move a UIView by 10 pixels we used to write:
 
-	myView.frame = CGRectMake(myView.frame.origin.x + 10, myView.frame.origin.y, myView.frame.size.width, myView.frame.size.height);
+	myView.frame = CGRectMake(myView.frame.origin.x + 10,
+							myView.frame.origin.y,
+							myView.frame.size.width,
+							myView.frame.size.height);
 
 With CGRect Utils simply use:
 
