@@ -33,7 +33,6 @@ List utils **getter and setter** for UIView:
 
 
 Or you can use the macro:
-
 	CGRectAddXToView(duck, 10);
 
 
