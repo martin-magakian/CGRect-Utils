@@ -27,7 +27,4 @@
 - (IBAction)widthPlusTen:(id)sender;
 - (IBAction)widthMinusTen:(id)sender;
 
-
-- (IBAction)updatePosition:(id)sender;
-
 @end

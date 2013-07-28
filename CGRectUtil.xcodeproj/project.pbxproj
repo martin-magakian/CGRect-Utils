@@ -18,7 +18,7 @@
 		5B8F4E8F17A4D7B900A3759C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F4E8E17A4D7B900A3759C /* Default-568h@2x.png */; };
 		5B8F4E9217A4D7B900A3759C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F4E9117A4D7B900A3759C /* ViewController.m */; };
 		5B8F4E9D17A4D7F200A3759C /* duck.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F4E9C17A4D7F200A3759C /* duck.png */; };
-		5B8F4EA417A4D8A600A3759C /* UIView+CGRectUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F4EA317A4D8A600A3759C /* UIView+CGRectUtil.m */; };
+		5B8F4EA417A4D8A600A3759C /* UIView+CGRectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F4EA317A4D8A600A3759C /* UIView+CGRectUtils.m */; };
 		5B8F4EA617A4DC2000A3759C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8F4EA517A4DC2000A3759C /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
@@ -39,9 +39,9 @@
 		5B8F4E9017A4D7B900A3759C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5B8F4E9117A4D7B900A3759C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B8F4E9C17A4D7F200A3759C /* duck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duck.png; sourceTree = "<group>"; };
-		5B8F4E9F17A4D82E00A3759C /* CGRectUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRectUtil.h; sourceTree = "<group>"; };
-		5B8F4EA217A4D87000A3759C /* UIView+CGRectUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGRectUtil.h"; sourceTree = "<group>"; };
-		5B8F4EA317A4D8A600A3759C /* UIView+CGRectUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGRectUtil.m"; sourceTree = "<group>"; };
+		5B8F4E9F17A4D82E00A3759C /* CGRectUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRectUtils.h; sourceTree = "<group>"; };
+		5B8F4EA217A4D87000A3759C /* UIView+CGRectUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGRectUtils.h"; sourceTree = "<group>"; };
+		5B8F4EA317A4D8A600A3759C /* UIView+CGRectUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGRectUtils.m"; sourceTree = "<group>"; };
 		5B8F4EA517A4DC2000A3759C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,9 +126,9 @@
 		5B8F4E9E17A4D7FB00A3759C /* LIB */ = {
 			isa = PBXGroup;
 			children = (
-				5B8F4E9F17A4D82E00A3759C /* CGRectUtil.h */,
-				5B8F4EA217A4D87000A3759C /* UIView+CGRectUtil.h */,
-				5B8F4EA317A4D8A600A3759C /* UIView+CGRectUtil.m */,
+				5B8F4E9F17A4D82E00A3759C /* CGRectUtils.h */,
+				5B8F4EA217A4D87000A3759C /* UIView+CGRectUtils.h */,
+				5B8F4EA317A4D8A600A3759C /* UIView+CGRectUtils.m */,
 			);
 			path = LIB;
 			sourceTree = "<group>";
@@ -203,7 +203,7 @@
 				5B8F4E8517A4D7B900A3759C /* main.m in Sources */,
 				5B8F4E8917A4D7B900A3759C /* AppDelegate.m in Sources */,
 				5B8F4E9217A4D7B900A3759C /* ViewController.m in Sources */,
-				5B8F4EA417A4D8A600A3759C /* UIView+CGRectUtil.m in Sources */,
+				5B8F4EA417A4D8A600A3759C /* UIView+CGRectUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +320,7 @@
 				5B8F4E9A17A4D7B900A3759C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
