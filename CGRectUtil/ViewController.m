@@ -43,26 +43,26 @@
 }
 
 - (IBAction)xMinusTen:(id)sender {
-    // the new way
-    CGRectAddXToView(duck, -10);
+    // using accessor
+    duck.x -= 10;
+    
     [self updatePosition];
 }
 
 - (IBAction)yPlusTen:(id)sender {
+    // using macro
     CGRectAddYToView(duck, 10);
     [self updatePosition];
 }
 
 - (IBAction)yMinusTen:(id)sender {
-    //using accessor
-    duck.y -= -10;
+    duck.y -= 10;
     [self updatePosition];
 
 }
 
 - (IBAction)heightPlusTen:(id)sender {
     duck.height += 10;
-    //CGRectAddHeightToView(duck, 10);
     [self updatePosition];
 }
 
