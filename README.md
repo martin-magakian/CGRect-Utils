@@ -96,7 +96,7 @@ dev.martin.magakian@gmail.com
 
 
 License
-=========
+==========
 MIT License (MIT)
 
 
